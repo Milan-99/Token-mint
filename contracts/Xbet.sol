@@ -31,7 +31,7 @@ contract XBET is IERC20 {
         _totalsupply = _total;
         decimal = _decimal;
         balance[owner] = _totalsupply;
-        dc = TFUEL(_dc);
+        dc = YBET(_dc);
     }
 
     function totalSupply() external view override returns (uint256) {
